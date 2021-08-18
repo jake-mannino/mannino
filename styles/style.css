@@ -231,6 +231,7 @@ animation-iteration-count: 6;
   z-index: 7;
 }
 .card-body {
+  position: relative;
   backdrop-filter: blur(1px);
   z-index: 500;
 }
@@ -240,10 +241,11 @@ animation-iteration-count: 6;
   justify-content: center;
   size: 10vh;
   align-self: center;
+  position: relative;
 }
 
 .card {
-  size: 1%;
+  size: 10%;
   margin-top: 50px;
   background-color: rgba(106, 0, 226, 0.1);
   -webkit-backdrop-filter: blur(3px);
@@ -253,6 +255,7 @@ animation-iteration-count: 6;
   border-color: rgba(170, 120, 228, 0.637);
   z-index: 600;
   padding-bottom: 3px;
+  position: relative;
 }
 @keyframes Tornado-mode {
   from {
@@ -281,10 +284,11 @@ animation-iteration-count: 6;
   position: relative;
   justify-content: center;
   bottom: 1vh;
-  padding-inline: 1vh;
+  padding: 1vh;
   padding-top: 3vh;
   padding-bottom: 10px;
   margin-bottom: 10px;
+
 }
 
 svg path,
@@ -310,6 +314,42 @@ h2 {
   font-weight: bold;
   letter-spacing: 3px;
 }
+.row-about .card {
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  scroll-margin-block: 1vh;
+  overflow-block:inherit;
+  scroll-behavior: smooth;
+  scroll-padding-top: 3vh;
+}
+.row-about .card h2 {
+  font-size: 9vh;
+  letter-spacing: 0.2vh;
+  align-self: center;
+  justify-self: center;
+  text-align: center;
+  z-index: 100000;
+  color: white;
+}
+
+.card p {
+  text-align: center;
+  letter-spacing: 1vh;
+  text-shadow: 1vh;
+  font: outline;
+  color: white;
+
+}
+p {
+  text-align: center;
+  align-self: center;
+  justify-self: center;
+  text-justify: center;
+  flex-basis: 100%;
+  font-size: 4vh;
+  text-emphasis-color: white;
+}
 
 .imgcontainer:hover {
   opacity: 0.8;
@@ -319,3 +359,13 @@ h2 {
 .imgcontainer{
   size: 50vh;
 }
+
+.row-nav{
+  align-self: center;
+  justify-self: center;
+  position: relative;
+}
+.a {
+  font-style: normal;
+}
+
