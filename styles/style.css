@@ -80,6 +80,7 @@ body {
     position: relative;
     height: 6vh;
     letter-spacing: 1vh;
+    Display: inline-block;
 }
 
 .nav-container li :hover {
