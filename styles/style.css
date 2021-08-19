@@ -80,7 +80,7 @@ body {
     position: relative;
     height: 6vh;
     letter-spacing: 1vh;
-    Display: inline-block;
+    display: inline-block;
 }
 
 .nav-container li :hover {
@@ -146,6 +146,7 @@ body {
     z-index: 50;
     height: 5vh;
     text-decoration: none;
+    display: inline-block:
 }
 
 .side-nav ul li a {
@@ -157,6 +158,7 @@ body {
     z-index: 100;
     height: 2vh;
     text-decoration: none;
+    display: inline-block:
 }
 
 
@@ -179,7 +181,7 @@ body {
 .sect1 {
     position: sticky;
     position: -webkit-sticky;
-    top: 2vh;
+    top: 1vh;
     padding-top: 8px;
     display: flex;
     background-image: url("../Images/DSC_0425.JPG");
