@@ -403,6 +403,8 @@ p {
 
 .imgcontainer {
     size: 50vh;
+    position: sticky;
+    top: 400px;
 }
 
 .row-nav {
