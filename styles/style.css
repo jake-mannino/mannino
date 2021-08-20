@@ -26,19 +26,20 @@ body {
 
 .back-grad {
     padding-top: 0px;
-    padding-left: -10px;
-    margin-left: -30px;
+    padding-left: -15px;
+    margin-left: -15px;
     margin-top: -20px;
     margin-bottom: -180px;
     padding-bottom: -500px;
-    background: -moz-linear-gradient(40deg, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0) 100%);
+    background: -moz-linear-gradient(40deg, rgba(0, 0, 0, 0.80) 0%, rgba(0, 0, 0, 0) 100%);
     /* FF3.6-15 */
-    background: -webkit-linear-gradient(40deg, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0.02) 100%);
+    background: -webkit-linear-gradient(40deg, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0.002) 100%);
     /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(40deg, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0.01) 100%);
+    background: linear-gradient(40deg, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0.001) 100%);
     /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#a6000000', endColorstr='#00000000', GradientType=1);
-    z-index: 13;
+    z-index: 10;
+    border-radius: 0 0 10% 10%;
 }
 
 
@@ -54,11 +55,11 @@ body {
     padding-left: 10px;
     width: 100%;
     height: 240vh;
-    background: -moz-linear-gradient(60deg, rgba(0, 0, 0, 0.85) 0%, rgba(0, 0, 0, 0) 100%);
+    background: -moz-linear-gradient(60deg, rgba(0, 0, 0, 0.55) 0%, rgba(0, 0, 0, 0) 100%);
     /* FF3.6-15 */
-    background: -webkit-linear-gradient(60deg, rgba(0, 0, 0, 0.85) 0%, rgba(0, 0, 0, 0) 100%);
+    background: -webkit-linear-gradient(60deg, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0) 100%);
     /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(60deg, rgba(0, 0, 0, 0.85) 0%, rgba(0, 0, 0, 0) 100%);
+    background: linear-gradient(60deg, rgba(0, 0, 0, 0.55) 0%, rgba(0, 0, 0, 0) 100%);
     /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#a6000000', endColorstr='#00000000', GradientType=1);
     border-radius: 14%;
@@ -277,7 +278,7 @@ animation-iteration-count: 6;
 .card-body {
     position: relative;
     backdrop-filter: blur(1px);
-    z-index: 500;
+    z-index: 600;
 }
 
 .col-sm-12 .card {
@@ -362,7 +363,7 @@ h2 {
     justify-content: center;
     scroll-margin-block: 1vh;
     overflow-block: scroll;
-    scroll-behavior: smooth;
+    scroll-behavior: semi;
     scroll-padding-top: 3vh;
 }
 
