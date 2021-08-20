@@ -26,35 +26,34 @@ body {
 
 .back-grad {
     padding-top: 0px;
-    margin-left: -20px;
+    padding-left: -10px;
+    margin-left: -50px;
     margin-top: -20px;
     margin-bottom: -180px;
     padding-bottom: -500px;
-    background: -moz-linear-gradient(40deg, rgba(0, 0, 0, 0.45) 0%, rgba(0, 0, 0, 0.03) 100%);
+    background: -moz-linear-gradient(40deg, rgba(0, 0, 0, 0.45) 0%, rgba(0, 0, 0, 0) 100%);
     /* FF3.6-15 */
-    background: -webkit-linear-gradient(40deg, rgba(0, 0, 0, 0.45) 0%, rgba(0, 0, 0, 0.02) 100%);
+    background: -webkit-linear-gradient(40deg, rgba(0, 0, 0, 0.55) 0%, rgba(0, 0, 0, 0.02) 100%);
     /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(40deg, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0.01) 100%);
+    background: linear-gradient(40deg, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0.01) 100%);
     /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#a6000000', endColorstr='#00000000', GradientType=1);
     z-index: 13;
 }
 
 
-/* body:not(:hover) {
-    animation: Tornado-mode 4s;
+/* body:not(:hover) {animation: Tornado-mode 4s;
     animation-iteration-count: 2;
 } */
 
 .nav-container {
     padding-right: 30px;
-    margin-right: 100px;
-    margin-left: -70px;
-    margin-bottom: -60px;
+    /* margin-right: 100px; */
+    margin-left: 70px;
+    margin-bottom: -30px;
     padding-left: 10px;
-    padding-bottom: 40px;
-    width: 1vh;
-    height: 200vh;
+    width: 100%;
+    height: 240vh;
     background: -moz-linear-gradient(60deg, rgba(0, 0, 0, 0.85) 0%, rgba(0, 0, 0, 0) 100%);
     /* FF3.6-15 */
     background: -webkit-linear-gradient(60deg, rgba(0, 0, 0, 0.85) 0%, rgba(0, 0, 0, 0) 100%);
@@ -62,7 +61,8 @@ body {
     background: linear-gradient(60deg, rgba(0, 0, 0, 0.85) 0%, rgba(0, 0, 0, 0) 100%);
     /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#a6000000', endColorstr='#00000000', GradientType=1);
-    border-radius: 17%;
+    border-radius: 14%;
+    z-index: -50;
 }
 
 .container {
@@ -80,58 +80,68 @@ body {
     position: relative;
     height: 6vh;
     letter-spacing: 1vh;
-    display: inline-block;
+    padding-left: 1vh;
 }
 
 .nav-container li :hover {
-    background: -moz-linear-gradient(45deg, rgba(0, 0, 0, 0.035) 0%, rgba(0, 0, 0, 0) 100%);
+    background: -moz-linear-gradient(45deg, rgba(0, 0, 0, 0.065) 0%, rgba(0, 0, 0, 0) 100%);
     /* FF3.6-15 */
-    background: -webkit-linear-gradient(45deg, rgba(0, 0, 0, 0.035) 0%, rgba(0, 0, 0, 0) 100%);
+    background: -webkit-linear-gradient(45deg, rgba(0, 0, 0, 0.055) 0%, rgba(0, 0, 0, 0) 100%);
     /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(45deg, rgba(0, 0, 0, 0.035) 0%, rgba(0, 0, 0, 0) 100%);
+    background: linear-gradient(45deg, rgba(0, 0, 0, 0.045) 0%, rgba(0, 0, 0, 0) 100%);
     /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#a6000000', endColorstr='#00000000', GradientType=1);
     z-index: 2;
     padding-bottom: -10vh;
+    padding-left: 0.1vh;
+    transition: ease;
+    transform-style: preserve-3d;
+    transform-origin: 50%;
 }
 
 .side-nav {
     /* overflow: hidden; */
-    position: sticky;
+    position: absolute;
+    margin-left: -100px;
     list-style: none;
-    margin-right: 600px;
+    margin-right: 10px;
     top: 10px;
-    height: 320vh;
-    padding-right: 100px;
+    height: 300%;
+    padding-right: -100px;
+    padding-left: -150px;
+    ;
     margin-bottom: -80px;
     /* display: flex;
   flex-direction: column;
   flex-grow: 100%; */
+    backdrop-filter: blur(1px);
     align-items: center;
-    font-size: 30px;
+    font-size: 50px;
     text-decoration: white;
     font-weight: normal;
-    text-shadow: rgba(0, 0, 0, 0.4);
+    text-shadow: rgba(255, 255, 255, 0.4);
     font-stretch: semi-expanded;
-    border-radius: 15%;
-    background: -moz-linear-gradient(90deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 100%);
+    border-radius: 5%;
+    background: -moz-linear-gradient(90deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0) 100%);
     /* FF3.6-15 */
-    background: -webkit-linear-gradient(90deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0) 100%);
     /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(90deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 100%);
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 100%);
     /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#a6000000', endColorstr='#00000000', GradientType=1);
     z-index: 3;
 }
 
 .side-nav ul {
-    background-position: left;
     /* position: relative; */
     z-index: 40;
-    padding-left: 90px;
+    padding: 0.5vh;
     position: sticky;
+    padding-left: 50px;
+    margin-left: 10px;
     position: -webkit-sticky;
-    top: 6vh;
+    top: -30px;
+    border-radius: 3%;
 }
 
 .side-nav ul li a:hover {
@@ -139,14 +149,13 @@ body {
     outline-color: aquamarine;
     font-size: 45px;
     font-weight: bolder;
-    color: rgb(82, 93, 247);
-    text-shadow: rgba(0, 0, 0, 0.7);
+    color: rgb(166, 172, 255);
+    text-shadow: rgba(252, 239, 239, 0.7);
     font-stretch: 300px;
     background: rgba(0, 0, 0, 0.0001);
     z-index: 50;
     height: 5vh;
     text-decoration: none;
-    display: inline-block:
 }
 
 .side-nav ul li a {
@@ -156,9 +165,9 @@ body {
     font-size: 35px;
     letter-spacing: normal;
     z-index: 100;
-    height: 2vh;
+    height: 3vh;
     text-decoration: none;
-    display: inline-block:
+    margin-left: 40px;
 }
 
 
@@ -181,7 +190,7 @@ body {
 .sect1 {
     position: sticky;
     position: -webkit-sticky;
-    top: 1vh;
+    top: 2vh;
     padding-top: 8px;
     display: flex;
     background-image: url("../Images/DSC_0425.JPG");
@@ -225,8 +234,10 @@ animation-iteration-count: 6;
 
 .img-fluid {
     -webkit-box-reflect: below -70px linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4));
-    z-index: -6;
+    z-index: 6;
     size: 70vh;
+    overflow: hidden;
+    padding-bottom: 3vh;
 }
 
 .img-fluid:not(:hover) {
@@ -320,7 +331,7 @@ animation-iteration-count: 6;
     position: sticky;
     justify-content: center;
     bottom: 1vh;
- }
+}
 
 svg path,
 svg polygon {
@@ -350,7 +361,7 @@ h2 {
     align-items: center;
     justify-content: center;
     scroll-margin-block: 1vh;
-    overflow-block: inherit;
+    overflow-block: scroll;
     scroll-behavior: smooth;
     scroll-padding-top: 3vh;
 }
@@ -401,4 +412,5 @@ p {
 
 .a {
     font-style: normal;
+    offset-anchor: 10vh;
 }
