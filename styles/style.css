@@ -31,11 +31,11 @@ body {
     margin-top: -20px;
     margin-bottom: -180px;
     padding-bottom: -500px;
-    background: -moz-linear-gradient(40deg, rgba(0, 0, 0, 0.45) 0%, rgba(0, 0, 0, 0) 100%);
+    background: -moz-linear-gradient(40deg, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0) 100%);
     /* FF3.6-15 */
-    background: -webkit-linear-gradient(40deg, rgba(0, 0, 0, 0.55) 0%, rgba(0, 0, 0, 0.02) 100%);
+    background: -webkit-linear-gradient(40deg, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0.02) 100%);
     /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(40deg, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0.01) 100%);
+    background: linear-gradient(40deg, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0.01) 100%);
     /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#a6000000', endColorstr='#00000000', GradientType=1);
     z-index: 13;
@@ -84,9 +84,9 @@ body {
 }
 
 .nav-container li :hover {
-    background: -moz-linear-gradient(45deg, rgba(0, 0, 0, 0.065) 0%, rgba(0, 0, 0, 0) 100%);
+    background: -moz-linear-gradient(45deg, rgba(0, 0, 0, 0.035) 0%, rgba(0, 0, 0, 0) 100%);
     /* FF3.6-15 */
-    background: -webkit-linear-gradient(45deg, rgba(0, 0, 0, 0.055) 0%, rgba(0, 0, 0, 0) 100%);
+    background: -webkit-linear-gradient(45deg, rgba(0, 0, 0, 0.025) 0%, rgba(0, 0, 0, 0) 100%);
     /* Chrome10-25,Safari5.1-6 */
     background: linear-gradient(45deg, rgba(0, 0, 0, 0.045) 0%, rgba(0, 0, 0, 0) 100%);
     /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
@@ -122,9 +122,9 @@ body {
     text-shadow: rgba(255, 255, 255, 0.4);
     font-stretch: semi-expanded;
     border-radius: 5%;
-    background: -moz-linear-gradient(90deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0) 100%);
+    background: -moz-linear-gradient(90deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0) 100%);
     /* FF3.6-15 */
-    background: -webkit-linear-gradient(90deg, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 100%);
     /* Chrome10-25,Safari5.1-6 */
     background: linear-gradient(90deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 100%);
     /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
